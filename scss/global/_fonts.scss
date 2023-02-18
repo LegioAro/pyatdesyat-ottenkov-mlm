@@ -1,0 +1,124 @@
+// font-family: 'Geometria',sans-serif;
+// font-family: 'Unbounded',sans-serif;
+
+@font-face {
+  font-family: 'Geometria';
+  src: url('../fonts/geometria-light.eot'); /* IE 9 Compatibility Mode */
+  src: url('../fonts/geometria-light.eot?#iefix') format('embedded-opentype'),
+    /* IE < 9 */ url('../fonts/geometria-light.woff2') format('woff2'),
+    /* Super Modern Browsers */ url('../fonts/geometria-light.woff') format('woff'),
+    /* Firefox >= 3.6, any other modern browser */ url('../fonts/geometria-light.ttf')
+      format('truetype'),
+    /* Safari, Android, iOS */ url('../fonts/geometria-light.svg#geometria-light') format('svg'); /* Chrome < 4, Legacy iOS */
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Geometria';
+  src: url('../fonts/geometria.eot'); /* IE 9 Compatibility Mode */
+  src: url('../fonts/geometria.eot?#iefix') format('embedded-opentype'),
+    /* IE < 9 */ url('../fonts/geometria.woff2') format('woff2'),
+    /* Super Modern Browsers */ url('../fonts/geometria.woff') format('woff'),
+    /* Firefox >= 3.6, any other modern browser */ url('../fonts/geometria.ttf') format('truetype'),
+    /* Safari, Android, iOS */ url('../fonts/geometria.svg#geometria') format('svg'); /* Chrome < 4, Legacy iOS */
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Geometria';
+  src: url('../fonts/geometria-medium.eot'); /* IE 9 Compatibility Mode */
+  src: url('../fonts/geometria-medium.eot?#iefix') format('embedded-opentype'),
+    /* IE < 9 */ url('../fonts/geometria-medium.woff2') format('woff2'),
+    /* Super Modern Browsers */ url('../fonts/geometria-medium.woff') format('woff'),
+    /* Firefox >= 3.6, any other modern browser */ url('../fonts/geometria-medium.ttf')
+      format('truetype'),
+    /* Safari, Android, iOS */ url('../fonts/geometria-medium.svg#geometria-medium') format('svg'); /* Chrome < 4, Legacy iOS */
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Geometria';
+  src: url('../fonts/geometria-bold.eot'); /* IE 9 Compatibility Mode */
+  src: url('../fonts/geometria-bold.eot?#iefix') format('embedded-opentype'),
+    /* IE < 9 */ url('../fonts/geometria-bold.woff2') format('woff2'),
+    /* Super Modern Browsers */ url('../fonts/geometria-bold.woff') format('woff'),
+    /* Firefox >= 3.6, any other modern browser */ url('../fonts/geometria-bold.ttf')
+      format('truetype'),
+    /* Safari, Android, iOS */ url('../fonts/geometria-bold.svg#geometria-bold') format('svg'); /* Chrome < 4, Legacy iOS */
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Geometria';
+  src: url('../fonts/geometria-extrabold.eot'); /* IE 9 Compatibility Mode */
+  src: url('../fonts/geometria-extrabold.eot?#iefix') format('embedded-opentype'),
+    /* IE < 9 */ url('../fonts/geometria-extrabold.woff2') format('woff2'),
+    /* Super Modern Browsers */ url('../fonts/geometria-extrabold.woff') format('woff'),
+    /* Firefox >= 3.6, any other modern browser */ url('../fonts/geometria-extrabold.ttf')
+      format('truetype'),
+    /* Safari, Android, iOS */ url('../fonts/geometria-extrabold.svg#geometria-extrabold')
+      format('svg'); /* Chrome < 4, Legacy iOS */
+  font-weight: 800;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Geometria';
+  src: url('../fonts/geometria-heavy.eot'); /* IE 9 Compatibility Mode */
+  src: url('../fonts/geometria-heavy.eot?#iefix') format('embedded-opentype'),
+    /* IE < 9 */ url('../fonts/geometria-heavy.woff2') format('woff2'),
+    /* Super Modern Browsers */ url('../fonts/geometria-heavy.woff') format('woff'),
+    /* Firefox >= 3.6, any other modern browser */ url('../fonts/geometria-heavy.ttf')
+      format('truetype'),
+    /* Safari, Android, iOS */ url('../fonts/geometria-heavy.svg#geometria-heavy') format('svg'); /* Chrome < 4, Legacy iOS */
+  font-weight: 900;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Unbounded';
+  src: url('../fonts/Unbounded-Regular.eot');
+  src: url('../fonts/Unbounded-Regular.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/Unbounded-Regular.woff2') format('woff2'),
+    url('../fonts/Unbounded-Regular.woff') format('woff'),
+    url('../fonts/Unbounded-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'icomoon';
+  src: url('../fonts/icomoon.eot?1yru69');
+  src: url('../fonts/icomoon.eot?1yru69#iefix') format('embedded-opentype'),
+    url('../fonts/icomoon.ttf?1yru69') format('truetype'),
+    url('../fonts/icomoon.woff?1yru69') format('woff'),
+    url('../fonts/icomoon.svg?1yru69#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^='icon-'],
+[class*=' icon-'] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-close:before {
+  content: '\e900';
+}

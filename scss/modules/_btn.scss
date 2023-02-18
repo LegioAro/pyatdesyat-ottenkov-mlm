@@ -1,0 +1,19 @@
+.btn {
+  width: 100%;
+  background-image: linear-gradient(266.88deg, #cb2519 0%, #a61a12 100%);
+  color: #fff;
+  padding: 23px 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  font-family: var(--font-text);
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 23px;
+  text-align: center;
+  letter-spacing: -0.04em;
+  text-transform: uppercase;
+  border: 0;
+  box-shadow: 0 0 91px 10px rgba(255, 40, 24, 0.35);
+}
